@@ -55,3 +55,7 @@ Si vous souhaitez contribuer à l'amélioration de Factory, n'hésitez pas à cr
 ## Remerciements
 
 Un grand merci à tous les contributeurs qui ont rendu ce projet possible.
+
+--
+
+Particulièrement Corentin Labrux et Evan Michel qui ont participé au developpement du projet

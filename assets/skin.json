@@ -1,0 +1,60 @@
+{
+  "com.badlogic.gdx.graphics.Color": {
+    "mainButtonBgColorDown": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.5,
+      "a": 1.0
+    },
+    "mainButtonBgColorHover": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.8,
+      "a": 1.0
+    },
+    "mainButtonBgColorUp": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.2,
+      "a": 1.0
+    },
+    "mainFontColor": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    }
+  },
+  "TintedDrawable": {
+    "mainButtonUp": {
+      "name": "white-pixel",
+      "color": "mainButtonBgColorUp",
+      "minWidth": 200,
+      "minHeight": 75
+    },
+    "mainButtonBgColorDown": {
+      "name": "white-pixel",
+      "color": "mainButtonBgColorDown",
+      "minWidth": 200,
+      "minHeight": 75
+    },
+    "mainButtonBgColorHover": {
+      "name": "white-pixel",
+      "color": "mainButtonBgColorHover",
+      "minWidth": 200,
+      "minHeight": 75
+    }
+  },
+  "Button$ButtonStyle": {
+    "default": {
+      "up": "mainButtonUp",
+      "down": "mainButtonBgColorDown",
+      "over": "mainButtonBgColorHover"
+    }
+  },
+  "TextButton$TextButtonStyle": {
+    "default": {
+      "fontColor": "mainFontColor"
+    }
+  }
+}

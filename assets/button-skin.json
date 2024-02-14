@@ -1,0 +1,45 @@
+{
+    "TextButton$TextButtonStyle": {
+        "default": {
+            "font": "factoryFont",
+            "fontColor": "mainFontColor",
+            "up": "mainButtonUp",
+            "down": "mainButtonBgColorDown",
+            "over": "mainButtonBgColorHover"
+        }
+    },
+    "com.badlogic.gdx.graphics.Color": {
+        "mainButtonBgColorDown": {
+            "hex": "000000af"
+        },
+        "mainButtonBgColorHover": {
+            "hex": "000000a2"
+        },
+        "mainButtonBgColorUp": {
+            "hex": "00000096"
+        },
+        "mainFontColor": {
+            "hex": "ffffffb4"
+        }
+    },
+    "TintedDrawable": {
+        "mainButtonUp": {
+            "name": "white-pixel",
+            "color": "mainButtonBgColorUp",
+            "minWidth": 200,
+            "minHeight": 75
+        },
+        "mainButtonBgColorDown": {
+            "name": "white-pixel",
+            "color": "mainButtonBgColorDown",
+            "minWidth": 200,
+            "minHeight": 75
+        },
+        "mainButtonBgColorHover": {
+            "name": "white-pixel",
+            "color": "mainButtonBgColorHover",
+            "minWidth": 200,
+            "minHeight": 75
+        }
+    }
+}

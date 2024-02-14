@@ -11,7 +11,7 @@ Bienvenue dans Factory, un jeu de tower defense 2D créé en Java.
 
 2. **Téléchargez le code source du jeu depuis le dépôt Git :**
     ```
-    git clone https://github.com/votre-utilisateur/factory.git
+    git@github.com:ArthurCaillol-dev/Factory.git
     ```
 
 3. **Accédez au répertoire du projet :**
@@ -21,12 +21,13 @@ Bienvenue dans Factory, un jeu de tower defense 2D créé en Java.
 
 4. **Compilez le code :**
     ```
-    javac -d bin src/*.java
+    ./gradlew desktop:dist
     ```
 
 5. **Exécutez le jeu :**
     ```
-    java -cp bin Main
+    cp desktop/build/libs/desktop-1.0.jar ./
+    java -jar desktop-1.0.jar
     ```
 
 ## Contrôles du jeu
@@ -42,6 +43,10 @@ Bienvenue dans Factory, un jeu de tower defense 2D créé en Java.
 - **Variété de tours :** Choisissez parmi différentes tours, chacune avec ses propres fonctionnalités.
 
 - **Niveaux de difficulté :** Affrontez des ennemis de plus en plus forts et ajustez la difficulté en fonction de votre expérience.
+
+- **Resolution de la fenêtre :** Changer la resolution de la fenêtre à la taille que vous le souhaiter.
+
+- **Musique réglable :** Choisisser le volume de la musique grace à un curseur. Ou mutez le pour ne plus avoir de musique.
 
 ## Contribuer
 

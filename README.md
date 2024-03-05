@@ -5,7 +5,7 @@ Bienvenue dans Factory, un jeu de tower defense 2D créé en Java.
 ## Instructions d'exécution
 
 0. **Assurez-vous d'être sur une machine Linux**
-    En effet, le projet à été pensé et créer sur un système linux. Aucune implémentation n'a été faite pour qu'il fonctionne sur un système Windows
+    En effet, le projet à été pensé et créé sur un système linux. Aucune implémentation n'a été faite pour qu'il fonctionne sur un système Windows
 
 1. **Assurez-vous d'avoir Java installé sur votre machine.**
 
